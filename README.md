@@ -4,16 +4,16 @@
 
 This README file documents how to compile and run the particle project, what controls to use inside the project, and all the websites that helped me complete this assignment. This project was done on Windows 10 using Visual Studio Code to program and the recommended mingw64 environment to run and compile the code.
 
-## Compiling with the makefile
+## Compiling
 
-To compile the particle project, navigate to folder where the makefile is kept, `cd <path to repo>/desjarde/A2`. Use the command `make` to compile all the needed files inside the folder and the particle project will run automatically. When finished, `make clean`  will remove all the files created when compiling.
+To compile the particle project, use the command `make` wherever this repo has been cloned. When finished, `make clean`  will remove all the object files created.
 
 ## Function and Features
-- Populate the screen with 
+- Populate the screen with 300 particles with random colour, size and speed
 - Press Left Mouse Button to attract particles
 - Press Right Mouse Button to repel particles
-- If a particle is large enough, it will explode into four smaller particles when it touches the mouse
-- Particles that are the same colour will merge together and grow if they get close enough to each other
+- Large particles will explode into four smaller particles if touching the mouse
+- Particles that are the same colour will merge together if touching
 - Particles pushed beyond the edge of the program window will be teleported across to the other side
 
 # Keyboard Controls
