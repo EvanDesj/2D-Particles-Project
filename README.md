@@ -8,8 +8,13 @@ This README file documents how to compile and run the particle project, what con
 
 To compile the particle project, navigate to folder where the makefile is kept, `cd <path to repo>/desjarde/A2`. Use the command `make` to compile all the needed files inside the folder and the particle project will run automatically. When finished, `make clean`  will remove all the files created when compiling.
 
-## Using particle.cpp
-The program begins by populating the screen with 300 particles that have random attributes. One of those attributes is a range specific to each particle. If the left mouse button is pressed and the cursor is within range of a particle then it will be attracted towards the mouse, while if the right mouse button is pressed and a particle is within range of the cursor it will be repelled. If a particle reaches the cursor and is big enough to split, it will explode on contact with the mouse into four smaller particles. These particles, along with any other particles of the same colour, can merge back together if they get close enough to each other. Lastly, if particles reach the edge of the application window they will be teleported across to the other side.
+## Function and Features
+- Populate the screen with 
+- Press Left Mouse Button to attract particles
+- Press Right Mouse Button to repel particles
+- If a particle is large enough, it will explode into four smaller particles when it touches the mouse
+- Particles that are the same colour will merge together and grow if they get close enough to each other
+- Particles pushed beyond the edge of the program window will be teleported across to the other side
 
 # Keyboard Controls
 
